@@ -113,6 +113,7 @@ img {
 
 .header-list{
     display: flex;
+    align-items: center;
 }
 
 .header-item:not(:last-child){
@@ -132,6 +133,8 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--sercondary-text-color);
+    display: flex;
+    align-items: center;
 }
 
 .header-link:hover, 
@@ -437,7 +440,7 @@ img {
 }
 
 .footer-first {
-    padding-right: 70px;
+    margin-right: 70px;
 }
 
 .footer-logo{
